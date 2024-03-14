@@ -16,11 +16,11 @@ const Fabicon = () => {
   if (!mounted) {
     return null;
   }
-
+    
   return (
     // <div className="h-10 w-10 border-2 fixed bottom-10 right-10 cursor-pointer rounded-full">
     <div
-      className={`${switchThemeDuration}h-10 w-10  fixed bottom-10 right-10 cursor-pointer text-white bg-blue-500 dark:bg-[#212933] px-2 py-2 rounded-full `}
+      className={`${switchThemeDuration}h-12 w-12  fixed bottom-10 right-10 cursor-pointer  dark:bg-slate-50 dark:text-yellow-300 bg-[#050816] text-yellow-300  dark px-3 py-3 rounded-full `}
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
     >
       {theme === "light" ? <SunIcon /> : <MoonIcon />}
