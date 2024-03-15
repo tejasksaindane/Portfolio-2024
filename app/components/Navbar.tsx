@@ -4,6 +4,7 @@ import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 import { switchThemeDuration } from "../constants";
+import Navlink from "./Navlinks";
 
 const links = [
   { url: "/", title: "Home" },
@@ -37,9 +38,10 @@ const Navbar = () => {
       </div>
       <div className="hidden md:flex gap-4 text-black dark:text-white">
         {links.map((link) => (
-          <Link href={link.url} key={link.title}>
-            {link.title}
-          </Link>
+          // <Link href={link.url} key={link.title}>
+          //   {link.title}
+          // </Link>
+          <Navlink link={link} key={link.title} />
         ))}
       </div>
       {/* Responsive Menu */}
