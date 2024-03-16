@@ -4,10 +4,8 @@ import React from "react";
 import { Linkedin, Twitter } from "lucide-react";
 import { FileText } from "lucide-react";
 import { Github } from "lucide-react";
-import { styles } from "../../Styles";
-import { motion } from "framer-motion";
 import FloatingBtn from "./FloatingBtn";
-import { FaGithub } from "react-icons/fa";
+
 
 const Hero = () => {
   return (
