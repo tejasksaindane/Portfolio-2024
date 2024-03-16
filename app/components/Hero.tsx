@@ -32,17 +32,17 @@ const Hero = () => {
           <br />
           that seamlessly integrate with diverse technologies.
         </h3>
-        <div className=" flex m-auto pt-[20px] lg:p-2 md:w-[50%] gap-6 justify-center  ">
-          <div className="flex w-[40px] h-[40px] shadow-xl dark:shadow-none dark:bg-[#915eff] dark:text-white rounded-full md:w-[60px] md:h-[60px]">
+        <div className=" flex m-auto pt-[30px] md:w-[50%] gap-6 justify-center  ">
+          <div className="flex w-[40px] h-[40px] shadow-xl dark:shadow-none dark:bg-[#915eff] dark:text-white rounded-full md:w-[60px] md:h-[60px] hover:scale-[1.2] hover:ease-in-out duration-500">
             <Linkedin className="m-auto" />
           </div>
-          <div className="flex w-[40px] h-[40px] shadow-xl dark:shadow-none dark:bg-[#915eff] dark:text-white rounded-full md:w-[60px] md:h-[60px]">
+          <div className="flex w-[40px] h-[40px] shadow-xl dark:shadow-none dark:bg-[#915eff] dark:text-white rounded-full md:w-[60px] md:h-[60px] hover:scale-[1.2] hover:ease-in-out duration-500">
             <Github className="m-auto" />
           </div>
-          <div className="flex w-[40px] h-[40px] shadow-xl dark:shadow-none dark:bg-[#915eff] dark:text-white rounded-full md:w-[60px] md:h-[60px]">
+          <div className="flex w-[40px] h-[40px] shadow-xl dark:shadow-none dark:bg-[#915eff] dark:text-white rounded-full md:w-[60px] md:h-[60px] hover:scale-[1.2] hover:ease-in-out duration-500">
             <Twitter className="m-auto" />
           </div>
-          <div className="flex w-[40px] h-[40px] shadow-xl dark:shadow-none dark:bg-[#915eff] dark:text-white rounded-full md:w-[60px] md:h-[60px]">
+          <div className="flex w-[40px] h-[40px] shadow-xl dark:shadow-none dark:bg-[#915eff] dark:text-white rounded-full md:w-[60px] md:h-[60px] hover:scale-[1.2] hover:ease-in-out duration-500">
             <FileText className="m-auto" />
           </div>
         </div>
