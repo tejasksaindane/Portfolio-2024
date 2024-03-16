@@ -26,23 +26,23 @@ const Hero = () => {
         <h1 className=" px-[30px] text-2xl dark:text-[#DEDEDE] lg:text-5xl font-extrabold text-[#18181b] tracking-wide">
           - A Software Engineer
         </h1>
-        <h3 className="px-[20px] pt-[20px] text-center  tracking-wide">
+        <h3 className="px-[20px] pt-[20px] text-center text-[14px] tracking-wide">
           Focusing in full-stack development, I excel in crafting responsive web
           applications
           <br />
           that seamlessly integrate with diverse technologies.
         </h3>
-        <div className=" flex m-auto lg:p-2 md:w-[50%] gap-6 justify-center  ">
-          <div className="flex w-[60px] h-[60px] shadow-xl dark:shadow-none dark:bg-[#915eff] dark:text-white rounded-full">
+        <div className=" flex m-auto pt-[20px] lg:p-2 md:w-[50%] gap-6 justify-center  ">
+          <div className="flex w-[40px] h-[40px] shadow-xl dark:shadow-none dark:bg-[#915eff] dark:text-white rounded-full md:w-[60px] md:h-[60px]">
             <Linkedin className="m-auto" />
           </div>
-          <div className="flex w-[60px] h-[60px]  shadow-xl dark:shadow-none dark:bg-[#915eff] dark:text-white  rounded-full">
+          <div className="flex w-[40px] h-[40px] shadow-xl dark:shadow-none dark:bg-[#915eff] dark:text-white rounded-full md:w-[60px] md:h-[60px]">
             <Github className="m-auto" />
           </div>
-          <div className="flex w-[60px] h-[60px] shadow-xl dark:shadow-none dark:bg-[#915eff] dark:text-white rounded-full">
+          <div className="flex w-[40px] h-[40px] shadow-xl dark:shadow-none dark:bg-[#915eff] dark:text-white rounded-full md:w-[60px] md:h-[60px]">
             <Twitter className="m-auto" />
           </div>
-          <div className="flex w-[60px] h-[60px] shadow-xl dark:shadow-none dark:bg-[#915eff] dark:text-white rounded-full">
+          <div className="flex w-[40px] h-[40px] shadow-xl dark:shadow-none dark:bg-[#915eff] dark:text-white rounded-full md:w-[60px] md:h-[60px]">
             <FileText className="m-auto" />
           </div>
         </div>
