@@ -21,7 +21,7 @@ const links = [
     title: "Contact",
   },
   {
-    url: "/experience",
+    url: "/Experience",
     title: "Experience",
   },
 ];
@@ -56,9 +56,9 @@ const Navbar = () => {
           onClick={() => setOpen(!open)}
         >
           {open ? (
-            <X className="text-[#DEDEDE] dark:text-[#DEDEDE]" />
+            <X className=" text-[#DEDEDE] dark:text-[#DEDEDE] " />
           ) : (
-            <Menu className="dark:text-[#DEDEDE]" />
+            <Menu className="dark:text-[#DEDEDE] " />
           )}
         </button>
         {/* Menu List */}

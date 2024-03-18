@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} bg-slate-50 dark:bg-black ${switchThemeDuration}`}
+        className={`${inter.className} bg-slate-50 dark:bg-[#050816] ${switchThemeDuration}`}
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <div className="h-16 w-full top-0 left-0 fixed">

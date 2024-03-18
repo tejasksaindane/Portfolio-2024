@@ -16,7 +16,7 @@ const Hero = () => {
         </p>
         <h1 className="text-3xl sm:justify-center lg:text-7xl py-4 font-extrabold dark:text-[#DEDEDE] text-[#18181b]">
           Hi, I'm
-          <span className="text-3xl text-[#915eff] lg:text-7xl font-extrabold">
+          <span className="text-3xl text-[#915EFF] lg:text-7xl font-extrabold">
             {" "}
             Tejas Saindane
           </span>
@@ -31,16 +31,16 @@ const Hero = () => {
           that seamlessly integrate with diverse technologies.
         </h3>
         <div className=" flex m-auto pt-[30px] md:w-[50%] gap-6 justify-center  ">
-          <div className="flex w-[40px] h-[40px] shadow-xl dark:shadow-none dark:bg-[#915eff] dark:text-white rounded-full md:w-[60px] md:h-[60px] hover:scale-[1.2] hover:ease-in-out duration-500">
+          <div className="flex w-[40px] h-[40px] shadow-xl dark:shadow-none dark:bg-[#915EFF] dark:text-white rounded-full md:w-[60px] md:h-[60px] hover:scale-[1.2] hover:ease-in-out duration-500">
             <Linkedin className="m-auto" />
           </div>
-          <div className="flex w-[40px] h-[40px] shadow-xl dark:shadow-none dark:bg-[#915eff] dark:text-white rounded-full md:w-[60px] md:h-[60px] hover:scale-[1.2] hover:ease-in-out duration-500">
+          <div className="flex w-[40px] h-[40px] shadow-xl dark:shadow-none dark:bg-[#915EFF] dark:text-white rounded-full md:w-[60px] md:h-[60px] hover:scale-[1.2] hover:ease-in-out duration-500">
             <Github className="m-auto" />
           </div>
-          <div className="flex w-[40px] h-[40px] shadow-xl dark:shadow-none dark:bg-[#915eff] dark:text-white rounded-full md:w-[60px] md:h-[60px] hover:scale-[1.2] hover:ease-in-out duration-500">
+          <div className="flex w-[40px] h-[40px] shadow-xl dark:shadow-none dark:bg-[#915EFF] dark:text-white rounded-full md:w-[60px] md:h-[60px] hover:scale-[1.2] hover:ease-in-out duration-500">
             <Twitter className="m-auto" />
           </div>
-          <div className="flex w-[40px] h-[40px] shadow-xl dark:shadow-none dark:bg-[#915eff] dark:text-white rounded-full md:w-[60px] md:h-[60px] hover:scale-[1.2] hover:ease-in-out duration-500">
+          <div className="flex w-[40px] h-[40px] shadow-xl dark:shadow-none dark:bg-[#915EFF] dark:text-white rounded-full md:w-[60px] md:h-[60px] hover:scale-[1.2] hover:ease-in-out duration-500">
             <FileText className="m-auto" />
           </div>
         </div>
