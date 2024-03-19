@@ -22,12 +22,12 @@ const imageStyle = {
 
 const myskills = () => {
   return (
-    <div className="h-screen md:pt-[30px]">
-      <div className="flex flex-col m-auto h-[70%] w-[80%] rounded-2xl md:my-6 dark:bg-[#1D1836] shadow-xl bg-[#fff] border-xl ">
-        <h1 className="text-center text-2xl  md:text-3xl font-bold md:mt-[67px] text-[#18181B] dark:text-[#DEDEDE] tracking-wide">
+    <div className="h-screen  md:pt-[50px]">
+      <div className="flex flex-col m-auto  h-[80%] w-[80%] rounded-2xl md:my-6 dark:bg-[#1D1836] shadow-xl bg-[#fff] border-xl ">
+        <h1 className="text-center py-[20px] text-2xl  md:text-3xl font-bold md:mt-[67px] text-[#18181B] dark:text-[#DEDEDE] tracking-wide">
           My Skills
         </h1>
-        <div className="flex m-auto w-[60%] justify-between flex-wrap md:w-[60%] md:gap-6 ">
+        <div className="flex m-auto pb-[20px] w-[60%] justify-between flex-wrap md:w-[60%] md:gap-6 ">
           <div className="px-[10px] py-[10px] md:px-[15px] hover:scale-[1.2] hover:ease-in-out duration-500 ">
             <Image
               src={javascript}
