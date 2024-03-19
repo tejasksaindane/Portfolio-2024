@@ -25,7 +25,7 @@ export default function RootLayout({
         className={`${inter.className} bg-slate-50 dark:bg-[#050816] ${switchThemeDuration}`}
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <div className="h-16 w-full top-0 left-0 fixed">
+          <div className="h-16 w-full top-0 left-0 fixed z-1000 opacity-100">
             <Navbar />
           </div>
 

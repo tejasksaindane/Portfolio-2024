@@ -1,3 +1,5 @@
+import onePlus from "./assets/onePlus.png";
+
 export const switchThemeDuration: string = "duration-200";
 
 export const experiences = [
@@ -64,7 +66,7 @@ export const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "carrent",
+    image: { onePlus },
     source_code_link: "https://github.com/",
   },
   {
@@ -85,7 +87,7 @@ export const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "jobit",
+    image: { onePlus },
     source_code_link: "https://github.com/",
   },
   {
@@ -106,7 +108,7 @@ export const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "tripguide",
+    image: { onePlus },
     source_code_link: "https://github.com/",
   },
 ];

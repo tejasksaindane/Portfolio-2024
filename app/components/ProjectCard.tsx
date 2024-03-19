@@ -10,7 +10,7 @@ const imageStyle = {
   padding: "20px",
   width: "320px",
   height: "220px",
-  //   objectFit: "cover",
+  objectFit: "cover",
 };
 
 const ProjectCard = ({
@@ -21,16 +21,11 @@ const ProjectCard = ({
   image,
   source_code_link,
 }: any) => {
-  //   console.log("------>", name);
+
   return (
     <div className="flex w-[320px] h-[400px] bg-[#fff]  dark:bg-[#151030]  m-auto rounded-2xl flex-col shadow-xl">
       <div className="relative w-full h-[230px]  rounded-2xl">
-        <Image
-          src={onePlus}
-          style={imageStyle}
-          alt="megha akash"
-          loading="lazy"
-        />
+        <Image src={onePlus} style={imageStyle} alt="Image" loading="lazy" />
         <div className="absolute inset-0 flex justify-end m-3 ">
           <div
             onClick={() => window.open(source_code_link, "_blank")}
