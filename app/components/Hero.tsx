@@ -32,15 +32,21 @@ const Hero = () => {
         </h3>
         <div className=" flex flex-col m-auto mt-[20px] md:w-[50%] gap-6 justify-center  ">
           <div className="flex m-auto justify-center gap-4">
-            <div className="flex w-[40px] h-[40px] shadow-xl dark:shadow-none dark:bg-[#915EFF] dark:text-white rounded-full md:w-[60px] md:h-[60px] hover:scale-[1.2] hover:ease-in-out duration-500">
-              <Linkedin className="m-auto" />
-            </div>
-            <div className="flex w-[40px] h-[40px] shadow-xl dark:shadow-none dark:bg-[#915EFF] dark:text-white rounded-full md:w-[60px] md:h-[60px] hover:scale-[1.2] hover:ease-in-out duration-500">
-              <Github className="m-auto" />
-            </div>
-            <div className="flex w-[40px] h-[40px] shadow-xl dark:shadow-none dark:bg-[#915EFF] dark:text-white rounded-full md:w-[60px] md:h-[60px] hover:scale-[1.2] hover:ease-in-out duration-500">
-              <Twitter className="m-auto" />
-            </div>
+            <a href="https://www.linkedin.com/in/tejas-saindane-xxiv112000/">
+              <div className="flex w-[40px] h-[40px] shadow-xl dark:shadow-none dark:bg-[#915EFF] dark:text-white rounded-full md:w-[60px] md:h-[60px] hover:scale-[1.2] hover:ease-in-out duration-500">
+                <Linkedin className="m-auto" />
+              </div>
+            </a>
+            <a href="https://github.com/tejasksaindane">
+              <div className="flex w-[40px] h-[40px] shadow-xl dark:shadow-none dark:bg-[#915EFF] dark:text-white rounded-full md:w-[60px] md:h-[60px] hover:scale-[1.2] hover:ease-in-out duration-500">
+                <Github className="m-auto" />
+              </div>
+            </a>
+            <a href="https://x.com/TejasSaindane2?t=JcqwGLQMMgI2DRGm7bdZow&s=09">
+              <div className="flex w-[40px] h-[40px] shadow-xl dark:shadow-none dark:bg-[#915EFF] dark:text-white rounded-full md:w-[60px] md:h-[60px] hover:scale-[1.2] hover:ease-in-out duration-500">
+                <Twitter className="m-auto" />
+              </div>
+            </a>
             <div className="flex w-[40px] h-[40px] shadow-xl dark:shadow-none dark:bg-[#915EFF] dark:text-white rounded-full md:w-[60px] md:h-[60px] hover:scale-[1.2] hover:ease-in-out duration-500">
               <FileText className="m-auto" />
             </div>
