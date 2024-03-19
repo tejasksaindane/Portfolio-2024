@@ -6,7 +6,7 @@ const Work = () => {
   console.log(projects);
   return (
     <>
-      <div className="h-screen mb-[-50px] md:mb-[70px]">
+      <div className="h-screen mb-[-50px] lg:mb-[30px]">
         <h1 className="dark:text-[#DEDEDE] text-2xl font-bold text-center mt-[50px] text-[#18181B]">
           My Projects
         </h1>

@@ -11,7 +11,7 @@ const imageStyle = {
   padding: "20px",
   width: "320px",
   height: "220px",
-  objectFit: "cover",
+//   objectFit: "cover",
 };
 
 const ProjectCard = ({
