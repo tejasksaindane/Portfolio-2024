@@ -26,3 +26,17 @@
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
   
+
+  ::-webkit-scrollbar {
+    width:7px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background:transparent;
+  }
+
+  ::-webkit-scrollbar-thumb{
+    background:#915EFF ;
+    border-radius:5px;
+    
+  }

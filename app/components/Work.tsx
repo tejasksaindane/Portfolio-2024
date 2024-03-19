@@ -8,7 +8,7 @@ const Work = () => {
     <>
       <div className="h-full mb-[-50px] lg:mb-[30px] ov">
         <h1 className="dark:text-[#DEDEDE] text-2xl font-bold text-center mt-[50px] text-[#18181B] tracking-wide">
-          My Projects
+          MY PROJECTS
         </h1>
         <div className="flex pt-[50px] gap-4 justify-center h-screen w-full flex-wrap md:px-[80px]">
           {projects.map((project, id) => (
