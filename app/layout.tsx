@@ -5,7 +5,7 @@ import { ThemeProvider } from "./Theme-Provider";
 import { switchThemeDuration } from "./constants";
 import Fabicon from "./components/Fabicon";
 import Navbar from "./components/Navbar";
-
+import NextTopLoader from "nextjs-toploader";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,6 +24,17 @@ export default function RootLayout({
       <body
         className={`${inter.className} bg-slate-50 dark:bg-[#050816] ${switchThemeDuration}`}
       >
+        <NextTopLoader
+          color="#915EFF"
+          initialPosition={0.08}
+          crawlSpeed={500}
+          height={3}
+          crawl={true}
+          showSpinner={true}
+          easing="ease"
+          speed={500}
+          shadow="0 0 10px #2299DD,0 0 5px #2299DD"
+        />
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <div className="h-16 w-full top-0 left-0 fixed z-1000 opacity-100">
             <Navbar />

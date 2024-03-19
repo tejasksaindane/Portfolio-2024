@@ -47,7 +47,7 @@ const Hero = () => {
                 <Twitter className="m-auto" />
               </div>
             </a>
-            <div className="flex w-[40px] h-[40px] shadow-xl dark:shadow-none dark:bg-[#915EFF] dark:text-white rounded-full md:w-[60px] md:h-[60px] hover:scale-[1.2] hover:ease-in-out duration-500">
+            <div className="flex w-[40px] h-[40px] shadow-xl dark:shadow-none dark:bg-[#915EFF] dark:text-white rounded-full md:w-[60px] md:h-[60px] hover:scale-[1.2] hover:ease-in-out duration-500 cursor-pointer">
               <FileText className="m-auto" />
             </div>
           </div>
