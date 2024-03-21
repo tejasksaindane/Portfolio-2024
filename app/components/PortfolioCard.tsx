@@ -6,6 +6,7 @@ import onePlus from "../constants/assets/onePlus.png";
 import github from "../constants/assets/github.png";
 import { Tilt } from "react-tilt";
 import { ExternalLink } from "lucide-react";
+import { CodeXml } from "lucide-react";
 
 const imageStyle = {
   borderRadius: "25px",
@@ -26,7 +27,13 @@ const PortfolioCard = ({
   return (
     <div className="flex w-[320px] h-[400px] md:w-[540px] md:h-[400px]  bg-[#fff]  dark:bg-[#151030]  m-auto rounded-2xl flex-col shadow-xl ">
       <div className="relative w-full h-[230px] md:h-[300px] rounded-2xl">
-        <Image src={onePlus} style={imageStyle} alt="Image" loading="lazy" />
+        <Image
+          src={onePlus}
+          style={imageStyle}
+          alt="Image"
+          loading="lazy"
+          className="z-0"
+        />
         <div className="absolute inset-0 flex justify-end m-3 ">
           <div
             onClick={() => window.open(source_code_link, "_blank")}
@@ -42,8 +49,13 @@ const PortfolioCard = ({
       </div>
 
       <div className="p-[20px] mt-[-30px]">
-        <h3 className="dark:text-[#DEDEDE] font-bold text-24px">{name}</h3>
-        <p className="mt-2 text-secondary text-[14px] dark:text-[#DEDEDE]">
+        <h6 className="dark:text-[#DEDEDE] font-bold text-24px flex w-[150px] mt-[15px] bg-[#915EFF] rounded-full bg-blend-overlay bg-opacity-20">
+          <span className="bg-[#915EFF] p-[4px] rounded-full text-white">
+            <CodeXml />
+          </span>
+          <span className="px-[5px] py-[4px]">{name}</span>
+        </h6>
+        <p className="mt-2 text-secondary text-[12px] dark:text-[#DEDEDE]">
           {description}
         </p>
         <a href="#">
