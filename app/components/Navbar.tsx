@@ -17,13 +17,13 @@ const links = [
     title: "Portfolio",
   },
   {
-    url: "/contact",
-    title: "Contact",
+    url: "/resume",
+    title: "Resume ",
   },
-  {
-    url: "/Experience",
-    title: "Experience",
-  },
+  // {
+  //   url: "/Experience",
+  //   title: "Experience",
+  // },
 ];
 
 const Navbar = () => {

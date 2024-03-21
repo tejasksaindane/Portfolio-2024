@@ -16,9 +16,9 @@ const about = () => {
   const { View } = useLottie(defaultOptions);
 
   return (
-    <div className="flex-1 flex-row w-full h-full lg:flex ">
+    <div className="flex-1 flex-row w-full h-full z-0 lg:flex ">
       <div className="flex-grow-3 flex-wrap  mt-[100px]">
-        <div className="w-[250px] h-[300px] m-auto pt-[50px] z-0 lg:mx-[40px]">
+        <div className="w-[250px] h-[300px] m-auto pt-[50px]  lg:mx-[40px]">
           {View}
         </div>
       </div>
@@ -29,7 +29,7 @@ const about = () => {
           <span className="text-[#915EFF] text-3xl font-bold pl-1">I</span> AM
           TEJAS
         </h1>
-        <p className="px-[25px] ">
+        <p className="px-[25px] dark:text-[#DEDEDE] ">
           As a dedicated software engineer passionate about transforming
           intricate concepts into streamlined solutions, I specialize in
           proficient full-stack development. I excel in seamlessly integrating
@@ -45,9 +45,9 @@ const about = () => {
         </p>
         <a
           href="#"
-          className="px-[25px] mb-[40px] flex mt-[20px] cursor-pointer gap-2 text-[#915EFF]"
+          className="px-[25px] mb-[40px] flex mt-[20px] cursor-pointer gap-2 text-[#915EFF] font-semibold"
         >
-          Click Here <SquareArrowUpRight />
+          Click here <SquareArrowUpRight />
         </a>
       </div>
     </div>

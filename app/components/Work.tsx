@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 import { projects } from "../constants/Switch-theme-duration";
 
 const Work = () => {
-  console.log(projects);
+ 
   return (
     <>
       <div className="h-full mb-[-50px] lg:mb-[30px] ov">

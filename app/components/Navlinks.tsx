@@ -10,7 +10,7 @@ const Navlink = ({ link }: any) => {
     <Link
       className={`p-3 ${
         pathName === link.url &&
-        "decoration-[#915eff] text-[#915eff] duration-75 font-semibold"
+        " text-[#915eff] duration-75 font-semibold "
       }`}
       href={link.url}
     >
