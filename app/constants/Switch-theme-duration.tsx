@@ -1,4 +1,5 @@
 import onePlus from "./assets/onePlus.png";
+import Netflix from "./assets/Netflix.png";
 
 export const switchThemeDuration: string = "duration-200";
 
@@ -52,7 +53,7 @@ export const projects = [
     id: 1,
     name: "Car Rent",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers", 
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers",
     tags: [
       {
         name: "react",
@@ -89,7 +90,7 @@ export const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: { onePlus },
+    image: { Netflix },
     source_code_link: "https://github.com/",
   },
   {

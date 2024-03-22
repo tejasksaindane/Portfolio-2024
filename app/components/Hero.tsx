@@ -14,15 +14,15 @@ const Hero = () => {
         <p className="mx-[10px] text-[14px]">
           LET'S MAKE YOUR ONLINE PRESENCE SHINE.
         </p>
-        <h1 className="text-3xl sm:justify-center lg:text-7xl py-4 font-extrabold dark:text-[#DEDEDE] text-[#18181b]">
+        <h1 className="text-3xl sm:justify-center lg:text-7xl py-4 font-bold dark:text-[#DEDEDE] text-[#18181b]">
           Hi, I'm
           <span className="text-3xl text-[#915EFF] lg:text-7xl font-extrabold">
             {" "}
             Tejas Saindane
           </span>
         </h1>
-        <h1 className=" px-[30px] text-2xl dark:text-[#DEDEDE] lg:text-5xl font-extrabold text-[#18181b] tracking-wide">
-          - A Software Engineer
+        <h1 className=" px-[30px] text-2xl dark:text-[#DEDEDE] lg:text-5xl font-bold text-[#18181b] tracking-wide">
+          - A Fullstack Developer
         </h1>
         <h3 className="px-[20px] pt-[20px] text-center text-[14px] tracking-wide">
           Focusing in full-stack development, I excel in crafting responsive web

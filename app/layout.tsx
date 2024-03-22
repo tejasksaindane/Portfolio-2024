@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Wix_Madefor_Text } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./Theme-Provider";
 import { switchThemeDuration } from "./constants";
@@ -7,7 +7,7 @@ import Fabicon from "./components/Fabicon";
 import Navbar from "./components/Navbar";
 import NextTopLoader from "nextjs-toploader";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Wix_Madefor_Text({ subsets: ["cyrillic-ext"] });
 
 export const metadata: Metadata = {
   title: "Tejas K Saindane | Portfolio",

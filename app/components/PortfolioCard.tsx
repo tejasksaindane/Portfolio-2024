@@ -3,8 +3,8 @@
 import Image from "next/image";
 import React from "react";
 import onePlus from "../constants/assets/onePlus.png";
+import Netflix from "../constants/assets/Netflix.png";
 import github from "../constants/assets/github.png";
-import { Tilt } from "react-tilt";
 import { ExternalLink } from "lucide-react";
 import { CodeXml } from "lucide-react";
 
@@ -25,14 +25,14 @@ const PortfolioCard = ({
   source_code_link,
 }: any) => {
   return (
-    <div className="flex w-[320px] h-[400px] md:w-[540px] md:h-[400px]  bg-[#fff]  dark:bg-[#151030]  m-auto rounded-2xl flex-col shadow-xl ">
+    <div className="flex w-[320px] h-[400px] md:w-[540px] md:h-[400px]  bg-[#fff] dark:bg-[#151030] m-auto rounded-2xl flex-col shadow-xl ">
       <div className="relative w-full h-[230px] md:h-[300px] rounded-2xl">
         <Image
-          src={onePlus}
+          src={Netflix}
           style={imageStyle}
           alt="Image"
-          loading="lazy"
-          className="z-0"
+          //   loading="lazy"
+          className="z-0 object-cover"
         />
         <div className="absolute inset-0 flex justify-end m-3 ">
           <div
@@ -48,20 +48,21 @@ const PortfolioCard = ({
         </div>
       </div>
 
-      <div className="p-[20px] mt-[-30px]">
+      {/* <div className="p-[20px] mt-[-30px]">
         <h6 className="dark:text-[#DEDEDE] font-bold text-24px flex w-[150px] mt-[15px] bg-[#915EFF] rounded-full bg-blend-overlay bg-opacity-20">
           <span className="bg-[#915EFF] p-[4px] rounded-full text-white">
             <CodeXml />
           </span>
-          <span className="px-[5px] py-[4px]">{name}</span>
+          <span className="px-[5px] py-[5.5px] text-sm">{name}</span>
         </h6>
         <p className="mt-2 text-secondary text-[12px] dark:text-[#DEDEDE]">
           {description}
         </p>
-        <a href="#">
+        <a href="#" className="flex ">
+          <p className="px-[5px] py-[4px] text-sm">View site</p>
           <ExternalLink />
         </a>
-      </div>
+      </div> */}
     </div>
   );
 };
