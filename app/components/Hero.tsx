@@ -5,9 +5,14 @@ import { Linkedin, Twitter } from "lucide-react";
 import { FileText } from "lucide-react";
 import { Github } from "lucide-react";
 import FloatingBtn from "./FloatingBtn";
-
+import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 const Hero = () => {
+  const [text] = useTypewriter({
+    words: ["- A Fullstack Developer"],
+    loop: 5000,
+  });
+
   return (
     <>
       <div className="h-screen flex justify-center items-center mt-[100px] flex-col tracking-wide md:h-[100%]">
@@ -21,8 +26,10 @@ const Hero = () => {
             Tejas Saindane
           </span>
         </h1>
-        <h1 className=" px-[30px] text-2xl dark:text-[#DEDEDE] lg:text-5xl font-bold text-[#18181b] tracking-wide">
-          - A Fullstack Developer
+        <h1 className=" px-[30px] text-2xl dark:text-[#DEDEDE] lg:text-5xl font-bold text-[#18181b] tracking-wide -z-[20]">
+          {text}
+          <Cursor cursorColor="#915EFF" />
+          {/* - A Fullstack Developer" */}
         </h1>
         <h3 className="px-[20px] pt-[20px] text-center text-[14px] tracking-wide">
           Focusing in full-stack development, I excel in crafting responsive web
@@ -47,8 +54,17 @@ const Hero = () => {
                 <Twitter className="m-auto" />
               </div>
             </a>
-            <div className="flex w-[40px] h-[40px] shadow-xl dark:shadow-none dark:bg-[#915EFF] dark:text-white rounded-full md:w-[60px] md:h-[60px] hover:scale-[1.2] hover:ease-in-out duration-500 cursor-pointer">
+            <div
+              data-tooltip-target="tooltip"
+              className="flex w-[40px] h-[40px] shadow-xl dark:shadow-none dark:bg-[#915EFF] dark:text-white rounded-full md:w-[60px] md:h-[60px] hover:scale-[1.2] hover:ease-in-out duration-500 cursor-pointer"
+            >
               <FileText className="m-auto" />
+              {/* <div
+              data-tooltip="tooltip"
+              className="absolute z-50 whitespace-normal break-words rounded-lg bg-black py-1.5 px-3 font-sans text-sm font-normal text-white focus:outline-none"
+            >
+              Material Tailwind
+            </div> */}
             </div>
           </div>
           <div className="-z-[10]">

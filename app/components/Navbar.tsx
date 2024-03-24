@@ -31,7 +31,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
     <div
-      className={`h-full w-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-16 xl:px-30 border-b z-50 relative bg-[#050816] ${switchThemeDuration}`}
+      className={`h-full w-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-16 xl:px-30 border-b z-50 relative bg-[#fff] dark:bg-[#050816] ${switchThemeDuration}`}
     >
       {/* Logo */}
       <div className="">

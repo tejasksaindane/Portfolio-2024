@@ -21,6 +21,8 @@ const PortfolioCard = ({
   image,
   source_code_link,
 }: any) => {
+ 
+
   return (
     <div className="flex w-[320px] h-[400px] md:w-[540px] md:h-[400px]  bg-[#fff] dark:bg-[#151030] m-auto rounded-2xl flex-col shadow-xl -z-50">
       <div className="relative w-full h-[230px] md:h-[300px] rounded-2xl">
@@ -45,7 +47,7 @@ const PortfolioCard = ({
         </div>
       </div>
 
-      <div className="p-[20px] mt-[-30px]">
+      {/* <div className="p-[20px] mt-[-30px]">
         <h6 className="dark:text-[#DEDEDE] font-bold text-24px flex w-[150px] mt-[15px] bg-[#915EFF] rounded-full bg-blend-overlay bg-opacity-20">
           <span className="bg-[#915EFF] p-[4px] rounded-full text-white">
             <CodeXml />
@@ -59,9 +61,9 @@ const PortfolioCard = ({
           <p className="px-[5px] py-[4px] text-sm">View site</p>
           <ExternalLink />
         </a>
-      </div>
+      </div> */}
 
-      <div className="flex"></div>
+      {/* <div className="flex"></div> */}
     </div>
   );
 };

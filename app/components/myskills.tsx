@@ -1,96 +1,178 @@
-"use client";
-
-import Image from "next/image";
 import React from "react";
-// import javascript from "../constants/assets/javascript.webp";
-// import ReactImage from "../constants/assets/React.webp";
-// import Tailwind from "../constants/assets/Tailwind.webp";
-// import Node from "../constants/assets/node.webp";
-// import Mongo from "../constants/assets/mongo.webp";
-// import Nxt from "../constants/assets/Next.webp";
-// import Typescript from "../constants/assets/Typescript.webp";
-// import Redux from "../constants/assets/Redux.webp";
-// import html from "../constants/assets/html.png";
-// import css from "../constants/assets/css.png";
-// import Socket from "../constants/assets/SocketIo.webp";
-
-const imageStyle = {
-  width: "60px",
-  height: "60px",
-  borderRadius: "10px",
-};
+import { CircleCheck } from "lucide-react";
 
 const myskills = () => {
   return (
-    <div className="h-screen  md:pt-[50px]">
-      <div className="flex flex-col m-auto  h-[80%] w-[80%] rounded-2xl md:my-6 dark:bg-[#1D1836] shadow-xl bg-[rgb(255,255,255)] border-xl ">
-        <p className="text-center py-[20px] text-sm  md:text-sm font-bold  md:mt-[67px] text-[#18181B] dark:text-[#DEDEDE] tracking-wide">
-          MY SKILLS
-        </p>
-        <div className="flex m-auto pb-[20px] w-[60%] justify-between flex-wrap md:w-[60%] md:gap-6 ">
-          <div className="px-[10px] py-[10px] md:px-[15px] hover:scale-[1.2] hover:ease-in-out duration-500 ">
-            <img
-              src="./assets/css.png"
-              style={imageStyle}
-              alt="Image"
-              loading="lazy"
-             
-            />
+    <div className="w-full h-screen flex flex-col lg:mt-[70px] ">
+      <div className="flex flex-col  text-md text-center w-full ">
+        <h1 className="font-bold">MY SKILLS</h1>
+        <p className="text-[14px] py-[10px]">My technical level</p>
+      </div>
+      {/* ------------------------------------------------------------------------------------------------------ */}
+      <div className="flex-1 flex justify-center gap-x-10 gap-y-6 mb-[100px] lg:pt-[25px] flex-wrap ">
+        <div className="flex-grow-5 w-[355px] h-[320px] dark:bg-[#151030] shadow-xl rounded-xl">
+          <div className="text-center pt-[15px]">
+            <p className="font-semibold">Frontend Developer</p>
           </div>
-          <div className="px-[10px] py-[10px] md:px-[15px] hover:scale-[1.2] hover:ease-in-out duration-500 ">
-            <img
-              src="./assets/html.png"
-              style={imageStyle}
-              alt="Image"
-              loading="lazy"
-             
-            />
+          <div className="flex-1 flex mx-[20px] my-[25px]">
+            <div className="flex-grow-5 w-[176.5px] px-4">
+              <div className=" flex text-start py-4">
+                <span>
+                  <img src="./assets/html.png" className="w-[40px] h-[40px]" />
+                </span>
+                <span className="flex  flex-col">
+                  <h1 className="px-[10px] text-sm">HTML</h1>
+                  <p className="text-[12px] pl-[10px]">advanced</p>
+                </span>
+              </div>
+
+              <div className=" flex text-start py-4">
+                <span>
+                  <img src="./assets/css.png" className="w-[40px] h-[40px]" />
+                </span>
+                <span className="flex  flex-col">
+                  <h1 className="px-[10px] text-sm">CSS</h1>
+                  <p className="text-[12px] pl-[10px]">intermidiate</p>
+                </span>
+              </div>
+
+              <div className=" flex text-start py-4">
+                <span>
+                  <img
+                    src="./assets/javascript.webp"
+                    className="w-[40px] h-[40px] rounded-xl"
+                  />
+                </span>
+                <span className="flex  flex-col">
+                  <h1 className="px-[10px] text-sm">Javascript</h1>
+                  <p className="text-[12px] pl-[10px]">intermidiate</p>
+                </span>
+              </div>
+            </div>
+            <div className="flex-grow-5  w-[176.5px] px-4">
+              <div className=" flex text-start py-4">
+                <span>
+                  <img
+                    src="./assets/Tailwind.webp"
+                    className="w-[40px] h-[40px]"
+                  />
+                </span>
+                <span className="flex  flex-col">
+                  <h1 className="px-[10px] text-sm">Tailwind</h1>
+                  <p className="text-[12px] pl-[10px]">basic</p>
+                </span>
+              </div>
+
+              <div className=" flex text-start py-4">
+                <span>
+                  <img
+                    src="./assets/React.webp"
+                    className="w-[40px] h-[40px]"
+                  />
+                </span>
+                <span className="flex  flex-col">
+                  <h1 className="px-[10px] text-sm">React</h1>
+                  <p className="text-[12px] pl-[10px]">intermidiate</p>
+                </span>
+              </div>
+
+              <div className=" flex text-start py-4">
+                <span>
+                  <img src="./assets/Next.webp" className="w-[40px] h-[40px]" />
+                </span>
+                <span className="flex  flex-col">
+                  <h1 className="px-[10px] text-sm">HTML</h1>
+                  <p className="text-[12px] pl-[10px]">advanced</p>
+                </span>
+              </div>
+            </div>
           </div>
-          <div className="px-[10px] py-[10px] md:px-[15px] md:py-[15px] hover:scale-[1.2] hover:ease-in-out duration-500 ">
-            <img
-              src="./assets/Tailwind.webp"
-              style={imageStyle}
-              alt="Image"
-              loading="lazy"
-              width={50}
-            />
+        </div>
+
+        {/* ----------------------------------------------------------------------------------------------------- */}
+
+        <div className="flex-grow-5 w-[355px] h-[320px] dark:bg-[#151030] shadow-xl rounded-xl ">
+          <div className="text-center pt-[15px]">
+            <p className="font-semibold">Backend Developer</p>
           </div>
-          <div className=" px-[10px] py-[10px] md:px-[15px] hover:scale-[1.2] hover:ease-in-out duration-500 ">
-            <img src="./assets/Typescript.webp" style={imageStyle} alt="Image" loading="lazy"
-            width={50} />
-          </div>
-          <div className="px-[10px] py-[10px] md:px-[15px] hover:scale-[1.2] hover:ease-in-out duration-500 ">
-            <img src="./assets/SocketIo.webp" style={imageStyle} alt="Image" loading="lazy"
-            width={50} />
-          </div>
-          <div className="px-[10px] py-[10px] md:px-[15px] hover:scale-[1.2] hover:ease-in-out duration-500 ">
-            <img src="./assets/React.webp" style={imageStyle} alt="Image" loading="lazy"
-            width={50} />
-          </div>
-          <div className="px-[10px] py-[10px] md:px-[15px] hover:scale-[1.2] hover:ease-in-out duration-500 ">
-            <img
-              src="./assets/Next.webp"
-              style={imageStyle}
-              alt="Image"
-              loading="lazy"
-              width={50}
-            />
-          </div>
-          <div className="px-[10px] py-[10px] md:px-[15px] hover:scale-[1.2] hover:ease-in-out duration-500 ">
-            <img src="./assets/node.webp" style={imageStyle} alt="Image" loading="lazy"
-            width={50} />
-          </div>
-          <div className="px-[10px] py-[10px] md:px-[15px] hover:scale-[1.2] hover:ease-in-out duration-500 ">
-            <img src="./assets/Redux.webp" style={imageStyle} alt="Image" loading="lazy"
-            width={50} />
-          </div>
-          {/* <div className="md:px-[10px] hover:scale-[1.2] hover:ease-in-out duration-500 ">
-            <img src="./assets/node.webp" style={imageStyle} alt="Image" loading="lazy"
-            width={50} />
-          </div> */}
-          <div className="px-[10px] py-[10px] md:px-[10px] hover:scale-[1.2] hover:ease-in-out duration-500 ">
-            <img src="./assets/mongo.webp" style={imageStyle} alt="Image" loading="lazy"
-            width={50} />
+          <div className="flex-1 flex mx-[20px] my-[25px]">
+            <div className="flex-grow-5 w-[176.5px] px-4">
+              <div className=" flex text-start py-4">
+                <span>
+                  <img src="./assets/node.webp" className="w-[40px] h-[40px]" />
+                </span>
+                <span className="flex  flex-col">
+                  <h1 className="px-[10px] text-sm">Nodejs</h1>
+                  <p className="text-[12px] pl-[10px]">Basic</p>
+                </span>
+              </div>
+
+              <div className=" flex text-start py-4">
+                <span>
+                  <img
+                    src="./assets/SocketIo.webp"
+                    className="w-[40px] h-[40px]"
+                  />
+                </span>
+                <span className="flex  flex-col">
+                  <h1 className="px-[10px] text-sm">Socket.IO</h1>
+                  <p className="text-[12px] pl-[10px]">intermidiate</p>
+                </span>
+              </div>
+
+              <div className=" flex text-start py-4">
+                <span>
+                  <img
+                    src="./assets/Typescript.webp"
+                    className="w-[40px] h-[40px] rounded-sm"
+                  />
+                </span>
+                <span className="flex  flex-col">
+                  <h1 className="px-[10px] text-sm">Typescript</h1>
+                  <p className="text-[12px] pl-[10px]">Basic</p>
+                </span>
+              </div>
+            </div>
+            <div className="flex-grow-5  w-[176.5px] px-4">
+              <div className=" flex text-start py-4">
+                <span>
+                  <img
+                    src="./assets/mongo.webp"
+                    className="w-[40px] h-[40px]"
+                  />
+                </span>
+                <span className="flex  flex-col">
+                  <h1 className="px-[10px] text-sm">MongoDB</h1>
+                  <p className="text-[12px] pl-[10px]">intermidiate</p>
+                </span>
+              </div>
+
+              <div className=" flex text-start py-4">
+                <span>
+                  <img
+                    src="./assets/firebase.png"
+                    className="w-[40px] h-[40px]"
+                  />
+                </span>
+                <span className="flex  flex-col">
+                  <h1 className="px-[10px] text-sm">Firebase</h1>
+                  <p className="text-[12px] pl-[10px]">intermidiate</p>
+                </span>
+              </div>
+
+              <div className=" flex text-start py-4">
+                <span>
+                  <img
+                    src="./assets/appwrite.webp"
+                    className="w-[40px] h-[40px]"
+                  />
+                </span>
+                <span className="flex  flex-col">
+                  <h1 className="px-[10px] text-sm">appwrite</h1>
+                  <p className="text-[12px] pl-[10px]">Basic</p>
+                </span>
+              </div>
+            </div>
           </div>
         </div>
       </div>

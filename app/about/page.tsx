@@ -17,7 +17,7 @@ const about = () => {
   const { View } = useLottie(defaultOptions);
 
   return (
-    <div className="flex-1 flex-row w-full h-full  lg:flex " id="about">
+    <div className="flex-1 flex-row w-full h-full  lg:flex ">
       <div className="flex-grow-3 flex-wrap  mt-[100px] -z-20">
         <div className="w-[250px] h-[300px] m-auto pt-[50px]  lg:mx-[40px]">
           {View}
