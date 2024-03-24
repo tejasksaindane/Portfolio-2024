@@ -5,6 +5,7 @@ import Lottie from "lottie-react";
 import { useLottie } from "lottie-react";
 import animationData from "../constants/Lottie/Portfolio.json";
 import { SquareArrowUpRight } from "lucide-react";
+import Link from "next/link";
 
 const about = () => {
   const defaultOptions = {
@@ -16,8 +17,8 @@ const about = () => {
   const { View } = useLottie(defaultOptions);
 
   return (
-    <div className="flex-1 flex-row w-full h-full z-0 lg:flex ">
-      <div className="flex-grow-3 flex-wrap  mt-[100px]">
+    <div className="flex-1 flex-row w-full h-full  lg:flex " id="about">
+      <div className="flex-grow-3 flex-wrap  mt-[100px] -z-20">
         <div className="w-[250px] h-[300px] m-auto pt-[50px]  lg:mx-[40px]">
           {View}
         </div>

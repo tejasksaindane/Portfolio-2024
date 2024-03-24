@@ -9,8 +9,7 @@ const Navlink = ({ link }: any) => {
   return (
     <Link
       className={`p-3 ${
-        pathName === link.url &&
-        " text-[#915eff] duration-75 font-semibold "
+        pathName === link.url && " text-[#915eff] duration-75 font-semibold "
       }`}
       href={link.url}
     >

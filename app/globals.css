@@ -11,6 +11,9 @@
       rgba(60, 51, 80, 0) 100%
     );
   }
+  body,html{
+    scroll-behavior: smooth;
+  }
 
   .black-gradient {
     background: #000000; /* fallback for old browsers */

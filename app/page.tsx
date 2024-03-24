@@ -4,13 +4,14 @@ import Hero from "./components/Hero";
 import Work from "./components/Work";
 import Myskills from "./components/myskills";
 
+
 export default function Home() {
   return (
     <div>
       <Hero />
       <Myskills />
       <Work />
-      {/* <Experience /> */}
+    
     </div>
   );
 }

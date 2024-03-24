@@ -51,7 +51,7 @@ const Hero = () => {
               <FileText className="m-auto" />
             </div>
           </div>
-          <div className="">
+          <div className="-z-[10]">
             <FloatingBtn />
           </div>
         </div>
