@@ -3,14 +3,14 @@ import { CircleCheck } from "lucide-react";
 
 const myskills = () => {
   return (
-    <div className="w-full h-screen flex flex-col lg:mt-[70px] ">
-      <div className="flex flex-col  text-md text-center w-full ">
+    <div className="w-full h-full flex flex-col mt-[70px] lg:mt-[70px] ">
+      <div className="flex flex-col  text-md text-center w-full pb-[30px]">
         <h1 className="font-bold">MY SKILLS</h1>
         <p className="text-[14px] py-[10px]">My technical level</p>
       </div>
       {/* ------------------------------------------------------------------------------------------------------ */}
-      <div className="flex-1 flex justify-center gap-x-10 gap-y-6 mb-[100px] lg:pt-[25px] flex-wrap ">
-        <div className="flex-grow-5 w-[355px] h-[320px] dark:bg-[#151030] shadow-xl rounded-xl">
+      <div className="flex-1 flex justify-center gap-x-10 gap-y-6  mb-[100px] lg:pt-[25px] flex-wrap ">
+        <div className="flex-grow-5 w-[350px] h-[320px] dark:bg-[#151030] shadow-xl rounded-xl ">
           <div className="text-center pt-[15px]">
             <p className="font-semibold">Frontend Developer</p>
           </div>
@@ -91,7 +91,7 @@ const myskills = () => {
 
         {/* ----------------------------------------------------------------------------------------------------- */}
 
-        <div className="flex-grow-5 w-[355px] h-[320px] dark:bg-[#151030] shadow-xl rounded-xl ">
+        <div className="flex-grow-5 w-[350px] h-[320px] dark:bg-[#151030] shadow-xl rounded-xl ">
           <div className="text-center pt-[15px]">
             <p className="font-semibold">Backend Developer</p>
           </div>

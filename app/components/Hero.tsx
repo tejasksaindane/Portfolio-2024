@@ -15,7 +15,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className="h-screen flex justify-center items-center mt-[100px] flex-col tracking-wide md:h-[100%]">
+      <div className="h-full flex justify-center items-center mt-[100px] flex-col tracking-wide md:h-[100%]">
         <p className="mx-[10px] text-[14px]">
           LET'S MAKE YOUR ONLINE PRESENCE SHINE.
         </p>

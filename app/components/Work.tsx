@@ -6,7 +6,7 @@ const Work = () => {
  
   return (
     <>
-      <div className="h-full mb-[-50px] pt-[50px] lg:mb-[30px] lg:-mt-[30px]">
+      <div className="h-full mb-[-50px] pt-[80px] lg:mb-[30px] lg:-mt-[30px]">
         <h1 className="dark:text-[#DEDEDE] text-sm font-bold text-center mt-[50px] text-[#18181B] tracking-wide">
           MY PROJECTS
         </h1>
