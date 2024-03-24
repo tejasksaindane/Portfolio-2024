@@ -1,5 +1,4 @@
 import React from "react";
-import { CircleCheck } from "lucide-react";
 
 const myskills = () => {
   return (
