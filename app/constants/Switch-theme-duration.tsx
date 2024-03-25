@@ -13,7 +13,7 @@ export const projects = [
       "Web-based platform that allows users to search, book, and manage car rentals from various providers",
     image: "/assets/onePlus.png",
     stack: "ReactJS",
-    source_code_link: "https://github.com/tejasksaindane/Form-Craft-",
+    source_code_link: "https://github.com/tejasksaindane/event_platform",
     site: "https://netflix-clone-c79a3.web.app/",
   },
   {
