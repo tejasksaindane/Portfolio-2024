@@ -34,7 +34,7 @@ export const projects = [
     image: "/assets/evently.png",
     stack: "NextJs",
     source_code_link: "https://github.com/tejasksaindane/Form-Craft-",
-    site: "https://github.com/tejasksaindane/Form-Craft-",
+    site: "https://netflix-clone-c79a3.web.app/",
   },
 ];
 
