@@ -64,7 +64,7 @@ const Navbar = () => {
         </button>
         {/* Menu List */}
         {open && (
-          <div className="absolute top-0 left-0 w-screen h-screen bg-black text-[#DEDEDE] flex justify-center items-center flex-col gap-8 text-2xl ">
+          <div className="absolute top-0 left-0 w-screen h-screen bg-black text-[#DEDEDE] flex justify-center items-center flex-col gap-8 text-2xl z-102">
             {links.map((link) => (
               <Link href={link.url} key={link.title}>
                 {link.title}

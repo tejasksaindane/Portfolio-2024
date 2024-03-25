@@ -18,8 +18,8 @@ const about = () => {
 
   return (
     <div className="flex-1 flex-row w-full h-full  lg:flex ">
-      <div className="flex-grow-3 flex-wrap  mt-[100px] -z-20">
-        <div className="w-[250px] h-[300px] m-auto pt-[50px]  lg:mx-[40px]">
+      <div className="flex-grow-3 flex-wrap  mt-[100px] ">
+        <div className="w-[250px] h-[300px] m-auto pt-[50px]  lg:mx-[40px]  relative -z-50">
           {View}
         </div>
       </div>

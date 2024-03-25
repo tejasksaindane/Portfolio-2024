@@ -23,7 +23,7 @@ export const projects = [
       "Web application that enables users to search for job openings",
     image: "/assets/Netflix.png",
     stack: "NextJs",
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/tejasksaindane/Form-Craft-",
     site: "https://netflix-clone-c79a3.web.app/",
   },
   {
@@ -33,8 +33,8 @@ export const projects = [
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars",
     image: "/assets/evently.png",
     stack: "NextJs",
-    source_code_link: "https://github.com/",
-    site: "https://netflix-clone-c79a3.web.app/",
+    source_code_link: "https://github.com/tejasksaindane/Form-Craft-",
+    site: "https://github.com/tejasksaindane/Form-Craft-",
   },
 ];
 
@@ -67,7 +67,7 @@ export const portfolios = [
       },
     ],
     image: "/assets/Netflix.png",
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/tejasksaindane/Form-Craft-",
   },
   {
     id: 3,
@@ -89,7 +89,7 @@ export const portfolios = [
       },
     ],
     image: "/assets/Netflix.png",
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/tejasksaindane/Form-Craft-",
   },
   {
     id: 4,

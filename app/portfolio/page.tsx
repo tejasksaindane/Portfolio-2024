@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import PortfolioCard from "../components/PortfolioCard";
 import { portfolios } from "../constants/Switch-theme-duration";
