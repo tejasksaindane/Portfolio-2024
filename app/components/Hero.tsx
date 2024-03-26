@@ -6,6 +6,7 @@ import { FileText } from "lucide-react";
 import { Github } from "lucide-react";
 import FloatingBtn from "./FloatingBtn";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
+import Link from "next/link";
 
 const Hero = () => {
   const [text] = useTypewriter({
@@ -54,20 +55,11 @@ const Hero = () => {
                 <Twitter className="m-auto" />
               </div>
             </a>
-            <div
-              data-tooltip-target="tooltip"
-              className="flex w-[40px] h-[40px] shadow-xl dark:shadow-none dark:bg-[#915EFF] dark:text-white rounded-full md:w-[60px] md:h-[60px] hover:scale-[1.2] hover:ease-in-out duration-500 cursor-pointer"
-            >
+            <div className="flex w-[40px] h-[40px] shadow-xl dark:shadow-none dark:bg-[#915EFF] dark:text-white rounded-full md:w-[60px] md:h-[60px] hover:scale-[1.2] hover:ease-in-out duration-500 cursor-pointer">
               <FileText className="m-auto" />
-              {/* <div
-              data-tooltip="tooltip"
-              className="absolute z-50 whitespace-normal break-words rounded-lg bg-black py-1.5 px-3 font-sans text-sm font-normal text-white focus:outline-none"
-            >
-              Material Tailwind
-            </div> */}
             </div>
           </div>
-          <div className="-z-[10]">
+          <div className="-z-[10] cursor-pointer">
             <FloatingBtn />
           </div>
         </div>

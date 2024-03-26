@@ -29,7 +29,7 @@ const ProjectCard = ({
         className=" w-full h-[230px] rounded-2xl bg-cover"
       >
         <div className=" flex justify-end mx-[2px] my-[2px] ">
-        <div
+          <div
             onClick={() => window.open(source_code_link, "_blank")}
             className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
           >
@@ -41,16 +41,18 @@ const ProjectCard = ({
           </div>
         </div>
         <div className="w-full mt-[200px]">
-          <h3 className="dark:text-[#DEDEDE] font-semibold text-sm tracking-wide">{name}</h3>
+          <h3 className="dark:text-[#DEDEDE] font-semibold text-sm tracking-wide">
+            {name}
+          </h3>
           <p className="text-xs tracking-wide dark:text-[#DEDEDE] pt-2">
             {description}
           </p>
-          <p className="my-2 text-xs dark:text-[#DEDEDE] px-[10px] py-[5px] bg-[#915EFF]  bg-blend-overlay bg-opacity-20 rounded-md ">
+          <p className="my-2 text-xs dark:text-[#DEDEDE] px-[10px] py-[5px] dark:bg-opacity-10 dark:bg-[#915EFF] bg-[#DCDCDC] bg-blend-overlay bg-opacity-50 rounded-md font-semibold ">
             {stack}
           </p>
-          <a href={site} target="_blank" rel="noopener noreferrer">
+          <Link href={site} target="_blank" rel="noopener noreferrer">
             <ExternalLink />
-          </a>
+          </Link>
         </div>
       </div>
     </div>
