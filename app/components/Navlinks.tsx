@@ -8,8 +8,9 @@ const Navlink = ({ link }: any) => {
   console.log(pathName);
   return (
     <Link
-      className={`p-3 ${
-        pathName === link.url && " text-[#915eff] duration-75 font-semibold "
+      className={`p-3 z-50${
+        pathName === link.url &&
+        " text-[#915eff] duration-75 font-semibold z-50 "
       }`}
       href={link.url}
     >
