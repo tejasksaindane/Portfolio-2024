@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const myskills = () => {
   return (
     <div className="w-full h-full flex flex-col mt-[70px] lg:mt-[70px] ">
@@ -11,7 +12,7 @@ const myskills = () => {
       <div className="flex-1 flex justify-center gap-x-10 gap-y-6  mb-[100px] lg:pt-[25px] flex-wrap ">
         <div className="flex-grow-5 w-[350px] h-[320px] dark:bg-[#151030] shadow-xl rounded-xl ">
           <div className="text-center pt-[15px]">
-            <p className="font-semibold">Frontend Developer</p>
+            <p className="font-semibold">Frontend Stack</p>
           </div>
           <div className="flex-1 flex mx-[20px] my-[25px]">
             <div className="flex-grow-5 w-[176.5px] px-4">
@@ -92,7 +93,7 @@ const myskills = () => {
 
         <div className="flex-grow-5 w-[350px] h-[320px] dark:bg-[#151030] shadow-xl rounded-xl ">
           <div className="text-center pt-[15px]">
-            <p className="font-semibold">Backend Developer</p>
+            <p className="font-semibold">Backend Stack</p>
           </div>
           <div className="flex-1 flex mx-[20px] my-[25px]">
             <div className="flex-grow-5 w-[176.5px] px-4">

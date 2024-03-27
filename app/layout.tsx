@@ -6,6 +6,7 @@ import { switchThemeDuration } from "./constants";
 import Fabicon from "./components/Fabicon";
 import Navbar from "./components/Navbar";
 import NextTopLoader from "nextjs-toploader";
+import Footer from "./components/Footer";
 
 const inter = Wix_Madefor_Text({ subsets: ["cyrillic-ext"] });
 

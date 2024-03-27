@@ -23,7 +23,7 @@ const ProjectCard = ({
   site,
 }: any) => {
   return (
-    <div className="flex w-[320px] h-[420px] bg-[#fff]  dark:bg-[#151030]  m-auto rounded-2xl flex-col shadow-xl z-auto p-3">
+    <div className="flex w-[320px] h-[410px] bg-[#fff]  dark:bg-[#151030]  m-auto rounded-2xl flex-col shadow-xl z-auto p-3">
       <div
         style={{ backgroundImage: `url(${image})` }}
         className=" w-full h-[230px] rounded-2xl bg-cover"
@@ -51,7 +51,7 @@ const ProjectCard = ({
             {stack}
           </p>
           <Link href={site} target="_blank" rel="noopener noreferrer">
-            <ExternalLink />
+            <ExternalLink size={20} />
           </Link>
         </div>
       </div>
