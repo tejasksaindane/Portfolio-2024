@@ -37,7 +37,9 @@ const Navbar = () => {
       <div className="">
         <Link href="/" className="text-sm">
           <p className="text-[18px] font-semibold cursor-pointer flex dark:text-[#DEDEDE]">
-            Tejas Saindane
+            <span className="text-[#915EFF]">&lt;</span> Tejas Saindane{" "}
+            <span className="text-[#915EFF]">&nbsp;/</span>
+            <span className="text-[#915EFF]">&gt;</span>
           </p>
         </Link>
       </div>
